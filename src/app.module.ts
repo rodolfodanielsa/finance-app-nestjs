@@ -7,7 +7,7 @@ import { AccountModule } from './account/account.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb+srv://rodolfosa:RcIg9wMvGiYNvblt@cluster0-xlztv.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }),
+    MongooseModule.forRoot('mongodb+srv://user:XXX@cluster0-xlztv.mongodb.net/test?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true }),
     UserModule,
     AccountModule,
   ],
